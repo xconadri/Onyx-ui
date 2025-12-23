@@ -1,0 +1,49 @@
+body {
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.phone {
+  width: 360px;
+  height: 740px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #0a1aff, #ff4da6);
+  box-shadow: 0 0 40px rgba(0,0,0,0.7);
+  padding: 20px;
+  color: white;
+}
+
+.status {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.clock {
+  margin-top: 40px;
+}
+
+.clock h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.apps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  position: absolute;
+  bottom: 40px;
+  width: 80%;
+}
+
+.app {
+  background: rgba(255,255,255,0.2);
+  border-radius: 16px;
+  padding: 18px;
+  text-align: center;
+  font-size: 22px;
+}
